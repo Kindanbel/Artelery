@@ -1,0 +1,1223 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    font-family: 'Clash Display', sans-serif;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    transition: all 0.7s ease;
+    box-sizing: border-box;
+
+    font-family: 'Clash Display', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+/*Header section starts*/
+
+#header{
+    padding: 30px 10%;
+    height: 90px;
+    background: linear-gradient(90deg, #083036 0.6%, #414127 97.28%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    width: 100%;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo span{
+    color: #fff;
+    font-size: 17px;
+}
+
+
+.list-items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list-items .items a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.list-items .items a:hover{
+    color: #09adb5;
+    font-size: 17px;
+}
+
+.header-btn .btn{
+    padding: 10px 30px;
+    background-color: #09adb5;
+    color: white;
+    border-radius: 5px;
+}
+
+.header-btn .btn:hover{
+    background-color: transparent;
+    outline: 1px solid #09adb5;
+}
+
+/*Header section end*/
+
+/*Hero section starts*/
+
+.section1{
+    width: 100%;
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 10% 250px;
+   
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 40px;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-text h1{
+    font-size: 50px;
+    padding-bottom: 1px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section-text span{
+    font-size: 50px;
+    padding-bottom: 1px;
+    color: #fff;
+}
+
+.section-text .text-dec{
+    background: linear-gradient(93deg, #15A873 1.16%, #038296 34.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.last-text{
+    display: flex;
+    gap: 10px;
+}
+
+.last-text h1{
+    font-weight: 200;
+}
+
+.section-text p{
+    width: 60%;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.section-text-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.section-text-btn .btn1:hover .btn-icon{
+   transform: rotate(-30deg);
+}
+
+.section-text-btn .btn2:hover .btn-icon{
+    transform: rotate(30deg);
+ }
+
+.section-text-btn .btn1{
+    padding: 10px 30px;
+    background-color: #09adb5;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-text-btn .btn2{
+    padding: 10px 30px;
+    background-color: transparent;
+    outline: 1px solid #09adb5 ;
+    color: white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-text-btn .btn1:hover{
+    background-color: transparent;
+    outline: 1px solid #09adb5 ;
+}
+
+.section-text-btn .btn2:hover{
+    background-color: #09adb5;
+}
+
+.section1-img{
+    position: relative;
+}
+
+.section1-img .img1{
+    width: 280px;
+    height: 350px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 20px 30px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+
+.section1-img .img1 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.section1-img .img1 .img{
+    width: 100%;
+    height: 190px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.section1-img .img1 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section1-img .img2{
+    width: 290px;
+    height: 350px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 20px 30px;
+
+    position: absolute;
+}
+
+
+.section1-img .img2 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.section1-img .img2 .img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.section1-img .img2 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.section1-img .others{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+
+.section1-img .others .other1,
+.section1-img .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section1-img .svg{
+    position: absolute;
+    top: 120px;
+    left: -113px;
+    z-index: 1;
+}
+
+
+
+#section2{
+    padding: 0 10%;
+    height: 100px;
+    background: linear-gradient(90deg, #073036 45.81%, rgba(9, 173,181,0.6) 95.6%)
+}
+
+#section2 .description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 0;
+    color: #fff;
+}
+
+#section2 .description li{
+    font-size: 30px;
+    text-align: center;
+}
+
+#section2 .description .sub-des{
+    font-size: 13px;
+}
+
+
+/*Hero section end*/
+
+/*Collection section start*/
+
+#section3{
+    padding: 200px 0 90px;
+   
+
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-size: cover;
+    background-position: top right;
+
+    overflow: hidden;
+}
+
+#section3 .collection-text{
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+
+#section3 .collection-text .text-header{
+   color: #fff;
+   padding-bottom: 15px;
+}
+
+#section3 .collection-text .text-header h1{
+    font-weight: 200;
+}
+
+#section3 .collection-text .text-paragraph{
+    width: 70%;
+    text-align: end;
+    color: #fff;
+
+}
+
+#section3 .collection-text .inner-para{
+    padding-top: 10px;
+    width: 60%;
+    text-align: end;
+    color: #fff;
+}
+
+#section3 .collection-text .collection-btn{
+    padding-top:10px ;
+
+}
+
+#section3 .collection-text .collection-btn .btn{
+    padding: 10px 30px;
+    background-color: #09adb5;
+    color: white;
+    border-radius: 5px;
+}
+
+#section3 .collections{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 30px;
+
+    margin: 0 10%;
+}
+
+#section3 .collections .collection-img-gal{
+    position: relative;
+    margin-left: 100px;
+}
+
+
+#section3 .collections .collection-img-gal .col-img1{
+    width: 290px;
+    height: 380px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 20px 30px;
+    position: relative;
+    z-index: 12;
+}
+
+#section3 .collections .collection-img-gal .col-img1 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#section3 .collections .collection-img-gal .col-img1 .img{
+    width: 100%;
+    height: 230px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#section3 .collections .collection-img-gal .col-img1 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .collections .collection-img-gal .col-img1 .others{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+#section3 .collections .collection-img-gal .col-img1 .others .other1,
+#section3 .collections .collection-img-gal .col-img1 .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Image2 */
+
+#section3 .collections .collection-img-gal .col-img2{
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 10px 20px;
+
+    position: absolute;
+    top: -120px;
+    left: 220px;
+    z-index: 13;
+}
+
+#section3 .collections .collection-img-gal .col-img2 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#section3 .collections .collection-img-gal .col-img2 .img{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#section3 .collections .collection-img-gal .col-img2 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .collections .collection-img-gal .col-img2 .others{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 8px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+#section3 .collections .collection-img-gal .col-img2 .others .other1,
+#section3 .collections .collection-img-gal .col-img2 .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Image3 */
+#section3 .collections .collection-img-gal .col-img3{
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 10px 20px;
+
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    z-index: 10;
+
+}
+
+#section3 .collections .collection-img-gal .col-img3 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#section3 .collections .collection-img-gal .col-img3 .img{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#section3 .collections .collection-img-gal .col-img3 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .collections .collection-img-gal .col-img3 .others{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 8px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+#section3 .collections .collection-img-gal .col-img3 .others .other1,
+#section3 .collections .collection-img-gal .col-img3 .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*Image4 */
+#section3 .collections .collection-img-gal .col-img4{
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 10px 15px;
+
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    z-index: 13;
+}
+
+#section3 .collections .collection-img-gal .col-img4 .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#section3 .collections .collection-img-gal .col-img4 .img{
+    width: 100%;
+    height: 115px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#section3 .collections .collection-img-gal .col-img4 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .collections .collection-img-gal .col-img4 .others{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 5px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+#section3 .collections .collection-img-gal .col-img4 .others .other1,
+#section3 .collections .collection-img-gal .col-img4 .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section3 .infinite-carousel{
+   padding-top: 200px;
+  
+}
+
+#section3 .infinite-carousel .carousel-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 10%;
+}
+
+#section3 .infinite-carousel .carousel-header .title{
+    color: #fff;
+    font-size: 25px;
+}
+
+#section3 .infinite-carousel .carousel-header a{
+    color: #fff;
+   
+}
+
+
+#section3 .infinite-carousel .scroller{
+    width: 100vw;
+    
+}
+
+#section3 .infinite-carousel .card-carousel{
+    width: max-content;
+    padding-top: 30px;
+    display: flex;
+    gap: 1rem;
+
+    animation:  scroll 20s infinite linear;
+}
+
+
+#section3 .infinite-carousel .card-carousel .card{
+    width: 200px;
+    min-width: 200px;
+    height: 60px;
+    padding: 10px 2cqmax;
+    background: linear-gradient(120deg,  #09adb5 0%, #0e3a3c 101.3%);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#section3 .infinite-carousel .card-carousel .card .card-img{
+    background-color: #038296;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+#section3 .infinite-carousel .card-carousel .card .card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#section3 .infinite-carousel .card-carousel .card .card-text{
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/*Section 4*/
+
+#section4{
+    padding: 100px 0 150px;
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    cursor: pointer;
+    position: relative;
+
+    overflow: hidden;
+}
+
+#section4 .inner-section .section-header{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#section4 .inner-section .header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+#section4 .inner-section .header-buttons .btn{
+    padding: 5px 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    color: #fff;
+
+    background: transparent;
+    outline: 1px solid #09adb5;
+}
+
+#section4 .inner-section .header-buttons .btn:hover{
+    background: #09adb5;
+    outline: none;
+}
+
+#section4 .inner-section2{
+    margin-top: 50px;
+}
+
+#section4 .col-img{
+    width: 300px;
+    height: 370px;
+    border-radius: 12px;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.07) 0.6%, rgba(1, 110, 107, 0.34) 99.04%);
+    backdrop-filter: blur(24px);
+    padding: 15px 30px;
+}
+
+.imglast{
+    border-radius: 6px;
+}
+
+#section4 .col-img .head-text{
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#section4 .col-img .img{
+    width: 100%;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#section4 .col-img .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#section4 .col-img .others{
+    margin: 20px 0;
+    border: 1px solid #fff;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 10px;
+    color: #fff;
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid rgba(0, 69, 99, 0.45);
+    background: linear-gradient(94deg, rgba(255, 255, 255, 0.06) 1.21%, rgba(0, 69, 99, 0.45) 98.18%);
+    backdrop-filter: blur(30px);
+}
+
+#section4 .col-img .others .other1,
+#section4 .col-img .others .other2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section4 .inner-section2{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+}
+
+#section4 .inner-section2::-webkit-scrollbar{
+    display: none;
+}
+
+#section4 .image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding-left: 10px;
+    flex: none;
+
+   
+}
+
+#section4 .gal-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+    position: absolute;
+    top: 55%;
+    z-index: 10;
+    gap: 75rem;
+}
+
+#section4 .gal-btn .back-btn,
+#section4 .gal-btn .next-btn{
+   background-color: rgb(255, 255, 255, 0.3);
+   border-radius: 50%;
+   width: 30px;
+}
+
+#section4 .gal-btn .back-btn{
+    opacity: 0;
+}
+
+/*Details section*/
+
+#section5{
+    padding: 100px 0 150px;
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#section5 .inner-section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 10%;
+}
+
+.des-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.des-btn:hover .icon3{
+    transform: rotate(30deg);
+}
+
+#section5 .inner-section3 .section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+#section5 .inner-section3 .section-header p{
+    text-align: center;
+    width: 70%;
+    padding-top: 5px;
+}
+
+#section5 .inner-section3 .section-button{
+    padding-top: 50px;
+}
+
+#section5 .inner-section3 .section-button button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #09adb5;
+    border-radius: 6px;
+}
+
+#section5 .inner-section3 .section-button button:hover{
+    outline: 1px solid #09adb5;
+    background-color: transparent;
+}
+
+#section5 .inner-section3 .details-container{
+    width: 100%;
+    height: 350px;
+    border-radius: 6px;
+
+    background-color: #021b1e;
+
+    padding: 50px 70px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: relative;
+}
+
+#section5 .inner-section3 .details-container:hover .card{
+    transform: translateY(-250px);
+}
+
+
+#section5 .inner-section3 .details-container .card{
+    padding: 30px 20px;
+    color: white;
+    width: 450px;
+    height: 250px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #083036 0.6%, #414127 85%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#section5 .inner-section3 .details-container .card .icon{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #073036;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section5 .inner-section3 .details-container .card .card-header{
+    font-size: 25px;
+}
+
+#section5 .inner-section3 .details-container .card .card-text{
+    font-size: 17px;
+    text-align: center;
+    width: 70%;
+}
+
+#section5 .inner-section3 .details-container .card:last-child{
+    position: absolute;
+    top: 320px;
+    left: 30%;
+}
+
+
+#section6{
+    padding: 50px 10% 150px;
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#section6 .section-header{
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#section6 .section6-img-gal{
+    width: 400px;
+    height: 450px;
+    border: 4px dashed #09adb5;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+#section6 .section6-img-gal .img1{
+    width: 80px;
+    height: 80px;
+}
+
+#section6 .section6-img-gal .img1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#section6 .section6-img-gal .img1:first-child{
+    position: absolute;
+    right: 158px;
+    top: -40px;
+}
+
+#section6 .section6-img-gal .img1:nth-child(2){
+    position: absolute;
+    right: -30px;
+    top: 170px;
+}
+
+#section6 .section6-img-gal .img1:nth-child(3){
+    position: absolute;
+    left: -30px;
+    top: 170px;
+}
+
+#section6 .section6-img-gal .img1:nth-child(4){
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+#section6 .section6-img-gal .img1:nth-child(5){
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+}
+
+#section6 .section-content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 100px;
+}
+
+#section6 .section6-text{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+
+    color: #fff;
+}
+
+#section6 .section6-text .section6-text-header{
+    font-size: 30px;
+}
+
+#section6 .section6-text .section6-para{
+    text-align: end;
+    width: 90%;
+}
+
+#section6 .section6-text button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #09adb5;
+    border-radius: 6px;
+}
+
+#section6 .section6-text button:hover{
+    outline: 1px solid #09adb5;
+    background-color: transparent;
+}
+
+
+/*Footer */
+
+#footer{
+    padding: 50px 0 100px;
+    background: url(images/MacBook\ Air\ -\ 4back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#footer .newsletter{ 
+    height: 250px;
+    margin: 0 15%;
+    
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.04);
+    padding: 30px 10%;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .newsletter .newsletter-header{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#footer .newsletter .newsletter-text{
+    text-align: center;
+    padding-bottom: 50px;
+    width: 70%;
+}
+
+
+#footer .newsletter #email{
+    width: 500px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 0 10px ;
+
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.06);
+    position: relative;
+}
+
+
+#footer .newsletter .newsletter-btn{
+    position: absolute;
+    top: 167px;
+    right: 220px;
+
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #09adb5;
+    border-radius: 6px;
+}
+
+#footer .newsletter #email::placeholder{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+#footer .footer-col{
+    padding: 50px 10% 0;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+
+}
+
+#footer .footer-col .col1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+#footer .footer-col .col1 .col1-header{
+    font-size: 20px;
+}
+
+#footer .footer-col .col1 .col1-items{
+    display: block;
+
+}
+
+#footer .footer-col .col1 .col1-lists{
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#footer .footer-col .col1 .col1-lists:hover{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+
+
+
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-50% - 0.5rem));
+    }
+}
+
+
+
+
+/*Media Queries
+
+@media (max-width: 768px){
+    .section1{
+        width: 100%;
+        background: url(images/MacBook\ Air\ -\ 4back.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 50px 50% 500px;
+       
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-gap: 60px;
+    }
+}*/
